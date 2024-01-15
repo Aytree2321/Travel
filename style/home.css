@@ -1,0 +1,30 @@
+
+* {
+    font-family: 'Work Sans', sans-serif;
+}
+
+header {
+    background: #FFF;
+    padding: 50px 135px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav>ul{
+    display: flex;
+}
+
+nav li{
+    list-style: none;
+    margin-right: 44px;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+nav li a{
+    text-decoration: none;
+    color: black;
+}
