@@ -11,6 +11,7 @@ header {
 nav {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 nav>ul{
@@ -26,5 +27,96 @@ nav li{
 
 nav li a{
     text-decoration: none;
-    color: black;
-}
+    color: black;}
+
+    .menu{
+        color: #FFF;
+        font-size: 1.5rem;
+    }
+
+    .img{
+        width: 48px;
+height: 56.008px;
+flex-shrink: 0;
+
+    }
+
+    .banner{
+        background-image: url("../Images/Group\ 13\ \(1\)\ \(1\).png");
+        width: 1170px;
+height: 500px;
+flex-shrink: 0;
+border-radius: 16px;
+
+    }
+
+    .explore{
+        color: #111111;
+
+font-size: 64px;
+text-align: center;
+font-weight: 800;
+
+    }
+    .dolor{
+        color: #111111;
+text-align: center;
+
+font-size: 25px;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+    }
+    
+
+    
+
+    a{
+        text-decoration: none;
+    }
+
+    .hill{
+        float: right;
+        width: 540px;
+height: 550px;
+flex-shrink: 0;
+
+    }
+
+    .pic{
+        position: absolute;
+        width:70%;
+        left:15%;
+        top: 746px;
+    }
+
+    .title{
+        color: #131318;
+
+text-align: center;
+
+font-size: 40px;
+
+font-weight: 800;
+
+    }
+
+    .des{
+        color: rgba(19, 19, 24, 0.70);
+
+font-size: 16px;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+    }
+    .btn{
+        width: 174px;
+height: 52px;
+flex-shrink: 0;
+border-radius: 8px;
+background: #FF5400;
+color:#FFF
+
+    }
+    
+    
+
+   
