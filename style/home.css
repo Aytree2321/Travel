@@ -29,9 +29,10 @@ nav li a{
     text-decoration: none;
     color: black;}
 
-    .menu{
-        color: #FFF;
-        font-size: 1.5rem;
+    #menu-icon{
+        font size:30px;
+        z-index: 100001;
+        display: none;
     }
 
     .img{
@@ -74,22 +75,22 @@ line-height: 26px; /* 162.5% */
         text-decoration: none;
     }
 
-    .hill{
-        float: right;
-        width: 540px;
-height: 550px;
-flex-shrink: 0;
-
+    .culture{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        align-items: center;
+        gap: 9rem;
     }
 
-    .pic{
-        position: absolute;
-        width:70%;
-        left:15%;
-        top: 746px;
+    .culture-img{
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
     }
 
-    .title{
+    
+
+    .culture-text h2{
         color: #131318;
 
 text-align: center;
@@ -98,14 +99,23 @@ font-size: 40px;
 
 font-weight: 800;
 
+
     }
 
-    .des{
+    .culture-text p{
         color: rgba(19, 19, 24, 0.70);
 
 font-size: 16px;
 font-weight: 400;
 line-height: 26px; /* 162.5% */
+    }
+    .des{
+        color: rgba(19, 19, 24, 0.70);
+
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px; /* 162.5% */
+            
     }
     .btn{
         width: 174px;
@@ -117,6 +127,59 @@ color:#FFF
 
     }
     
-    
+    .img-area{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
 
-   
+    .sinle-img{
+        padding: 0 20px 20px;
+    }
+
+    .mountain{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        align-items: center;
+        gap: 9rem;
+    }
+
+    .mountain h2{
+        color: #131318;
+font-family: Mulish;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: 60px; /* 150% */
+    }
+
+    .mountain p{
+        color: #5A5A5D;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; /* 162.5% */
+    }
+
+    .sed{
+        color: #131318;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 26px; /* 162.5% */
+    }
+
+    .btn2{
+        border-radius: 8px;
+background: #FF5400;
+    }
+
+    .mountain-video
+    {width: 400px;
+        height: 24px;
+      
+    }

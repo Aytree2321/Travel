@@ -4,8 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hero Travel</title>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/18.2.0/umd/react-dom.production.min.js" integrity="sha512-MOCpqoRoisCTwJ8vQQiciZv0qcpROCidek3GTFS6KTk2+y7munJIlKCVkFCYY+p3ErYFXCjmFjnfTTRSC1OHWQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet"
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
 
+  <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
+    rel="stylesheet"/>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&display=swap">
     <link rel="stylesheet" href="style/home.css">
     
@@ -24,25 +28,22 @@
                 <li><a href="">Blog</a></li>
                 <li><a href="">Contact</a></li>
             </ul>
-            <div class="menu">
-                <i class="fa-solid fa-bars"></i>
-            </div>
+            <div class="bx bx-menu" id="menu-icon"></div>
         </nav>
         <div class="banner">
             <h1 class="explore"><br>Explore Your Travel</h1>
             <p class="dolor"><b>A travel essay is a personal account of a trip or vacation, often written as part of a memoir, and is usually fictional. It might focus on the author's experiences and the sights they saw, giving readers a deeper understanding of the journey.</b></p>
             <div class="active">
                 <input type="text" placeholder="Where go">
-                <select name="text" id="" placeholder="When">
-                    <option value="when"></option>
-                    <option value="hj"></option>
+                <input type="text" placeholder="When">
                 </select>
         </div>
         </div>
-        <div class="pic">
-            <img class="hill" src="Images/Rectangle 4.png" alt="">
-            <h2 class="title">Our Popular Tours</h2>
-            <p class="des">Bucket List Travel: The Top 3 Places In The World, According To A New Report</p>
+        <div class="culture">
+            
+            <div class="culture-text">
+            <h2 >Our Popular Tours</h2>
+            <p >Bucket List Travel: The Top 3 Places In The World, According To A New Report</p>
             <ul>
                 <li class="des">Topping the global list is the enchanting paradise of the Maldives in the Indian Ocean. As Paton describes, “With its overwater bungalows, crystal-clear waters and vibrant marine life, it’s no wonder that this tropical haven is at the pinnacle of travel dreams.” .</li>
                 <li class="des">“The Statue of Liberty is a symbol of freedom and opportunity,” Paton affirms. Best way to experience it: Climb to its crown for panoramic views of the city skyline.</li>
@@ -50,17 +51,46 @@
             </ul>
             <p class="des">“The Statue of Liberty is a symbol of freedom and opportunity,” Paton affirms. Best way to experience it: Climb to its crown for panoramic views of the city skyline. </p>
                 <button class="btn">Read more</button>
+                </div>
+                <div class="culture-img">
+                    <img  src="Images/Rectangle 4.png" alt="">
+                    </div>
 
                 
         </div>
 </header>
 <main>
-    <section>
-    <div>
-       <img src="Images/Rectangle 5.png">
-       <img src="Images/Rectangle 8.png">
-    </div>
+    <section class="feature">
+        <div class="img-area">
+            <div class="sinle-img"><img src="Images/Rectangle 5.png" alt="">  </div>
+            <div class="sinle-img"><img src="Images/Rectangle 8.png" alt="">  </div>
+            <div class="sinle-img"><img src="Images/Rectangle 6.png" alt="">  </div>
+            <div class="sinle-img"><img src="Images/Rectangle 7.png" alt="">  </div>
+            <div class="sinle-img"><img src="Images/Rectangle 9.png" alt="">  </div>
+            <div class="sinle-img"><img src="Images/Rectangle 11.png" alt="">  </div>
+            <div class="sinle-img"><img src="Images/Rectangle 10.png" alt="">  </div>
+        </div>
 </section>
+<div class="mountain">
+            
+    <div class="mountain-text">
+    <h2 >A Simple Perfect Place To Get Lost</h2>
+    <p >Bangladesh is known for its vibrant history, ancient archeology, rich culture and beautiful landscape. Some of the oldest Islamic, Bhuddist, and Hindu archeological relics can be found in Bangladesh.</p>
+    <ul>
+        <li class="sed">Rajshahi is a vibrant city located on the Padma River's plains bounded on the north, west, and east by Paba Upazila. It is situated near the Bangladesh-India border and is surrounded by the towns of Kathakali and Nowhata. .</li>
+
+        <li class="sed"> Dhaka is Bangladesh's megacity with swathes of green spaces, beautiful museums, and storied red-brick facades. Here, glossy high-rises are beautifully juxtaposed against thousands-year-old mosques, giving the city a charismatic appeal you won't find anywhere else. </li>
+        
+    </ul>
+    on affirms. Best way to experience it: Climb to its crown for panoramic views of the city skyline. </p>
+        <button class="btn2">See more</button>
+        </div>
+        <div class="mountain-video">
+            <video controls width="400px" src="Images/pexels_videos_2815411 (2160p).mp4"></video>
+            </div>
+
+        
+</div>
 </main>
 </body>
 </html>
